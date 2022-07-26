@@ -1,0 +1,202 @@
+.checkit {
+  padding-bottom: 169px;
+}
+
+.checkit__info {
+  text-align: center;
+  padding-bottom: 56px;
+}
+
+.checkit__title {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  padding-bottom: 13px;
+  max-width: 699px;
+  margin: 0px auto;
+}
+
+.checkit__subtitle {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  padding-bottom: 25px;
+  max-width: 604px;
+  margin: 0px auto;
+}
+
+.checkit__btn {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding: 8px 102px 10px 101px;
+  background: #3734a9;
+  border-radius: 10px;
+}
+
+.checkit__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1043px;
+  margin: 0px auto;
+  padding-bottom: 114px;
+}
+
+.checkit__image {
+  padding-bottom: 24px;
+}
+
+.checkit__text {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  padding-bottom: 1px;
+}
+
+.checkit__subtext {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #757095;
+  max-width: 279px;
+}
+
+.checkit__navigation {
+  max-width: 1044px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 46px;
+}
+
+.checkit__nav-text {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  padding-left: 70px;
+  max-width: 561px;
+}
+
+.checkit__nav-button {
+  padding-right: 72px;
+}
+
+.checkit__nav-btn {
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  background: #4f46ba;
+  border-radius: 10px;
+  padding: 21px 44px 19px 43px;
+}
+
+.checkit-item1 {
+  background: url("../img/Checkit/checkit-back_01.svg") 75% 0 no-repeat;
+}
+
+.checkit-item2 {
+  background: url("../img/Checkit/checkit-back_02.svg") 75% 0 no-repeat;
+}
+
+.checkit-item3 {
+  background: url("../img/Checkit/checkit-back_03.svg") 75% 0 no-repeat;
+}
+
+@media (max-width: 673px) {
+  .checkit__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  .checkit__item {
+    text-align: center;
+  }
+  .checkit__text {
+    margin: 0px auto;
+    max-width: 600px;
+  }
+  .checkit__subtext {
+    margin: 0px auto;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 878px) {
+  .checkit {
+    padding-bottom: 69px;
+  }
+  .checkit__navigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 30px;
+  }
+  .checkit__nav-text {
+    text-align: center;
+    padding: 0px;
+  }
+  .checkit__nav-button {
+    margin: 0px auto;
+    padding: 0px;
+  }
+  .checkit__body {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .checkit__btn {
+    padding: 15px 15px 13px 15px;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .checkit__nav-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

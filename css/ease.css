@@ -1,0 +1,153 @@
+.ease {
+  margin-bottom: 123px;
+}
+
+.ease__title {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin: 0px auto;
+  padding-bottom: 13px;
+  text-align: center;
+}
+
+.ease__subtitle {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  margin: 0px auto;
+  max-width: 604px;
+}
+
+.ease__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 59px;
+  gap: 30px;
+}
+
+.ease__card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  border-radius: 22px;
+  -webkit-box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+  margin-bottom: 42px;
+}
+
+.ease__card-item {
+  padding-top: 99px;
+  padding-left: 33px;
+  padding-right: 46px;
+}
+
+.ease__card-text {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #1b1c31;
+  padding-bottom: 20px;
+}
+
+.ease__card-subtext {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  padding-bottom: 20px;
+}
+
+.ease__card-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 11px;
+          column-gap: 11px;
+}
+
+.ease__card-read {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #01966b;
+}
+
+.ease__card-image {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.ease__card-image img {
+  vertical-align: middle;
+}
+
+.ease__button {
+  text-align: center;
+}
+
+.ease__btn {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 21px 51px 17px 50px;
+  background: #4f46ba;
+  border-radius: 10px;
+}
+
+@media (max-width: 828px) {
+  .ease__title {
+    font-size: 30px;
+  }
+  .ease__subtitle {
+    font-size: 15px;
+  }
+  .ease__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  .ease__card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .ease__btn {
+    padding: 14px 36px 11.5px 35.5px;
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,40 @@
+.brands {
+  padding-bottom: 28px;
+}
+
+.brands__title {
+  padding-top: 64px;
+  text-align: center;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+  padding-bottom: 36px;
+}
+
+.brands__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .brands__items {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brands__items {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    row-gap: 45px;
+  }
+}

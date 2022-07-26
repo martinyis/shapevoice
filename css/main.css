@@ -1,0 +1,258 @@
+.start {
+  padding-top: 0px;
+}
+
+.start__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 211px;
+  padding-bottom: 41px;
+}
+
+.start__info {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 54%;
+          flex: 0 1 54%;
+  padding-left: 26px;
+}
+
+.start__title {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 74px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin: 0px;
+  padding-bottom: 19px;
+  max-width: 560px;
+}
+
+.start__subtitle {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  max-width: 446px;
+  margin: 0px;
+  padding-bottom: 47px;
+}
+
+.start__naviagtion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.start__btn {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  background: #3734a9;
+  border-radius: 47px;
+  padding: 15px 36px 15px 36px;
+}
+
+.start__playvideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.start__playtext {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #3734a9;
+  padding-left: 11px;
+}
+
+.start__signin {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 46%;
+          flex: 0 1 46%;
+  padding-right: 126px;
+  padding-top: 34px;
+}
+
+.start__signin-title {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #3734a9;
+  padding-bottom: 22px;
+}
+
+.start__signin-form input {
+  background: #ffffff;
+  border: 1px solid #dfe4f1;
+  border-radius: 5px;
+  width: 356px;
+  height: 60px;
+  margin-bottom: 24px;
+}
+
+.start__signin-form input::-webkit-input-placeholder {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  opacity: 0.4;
+}
+
+.start__signin-form input:-ms-input-placeholder {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  opacity: 0.4;
+}
+
+.start__signin-form input::-ms-input-placeholder {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  opacity: 0.4;
+}
+
+.start__signin-form input::placeholder {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607d;
+  opacity: 0.4;
+}
+
+.start__signin-form:first-child {
+  padding-bottom: 20px;
+}
+
+.start__signin-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 356px;
+  z-index: 50;
+}
+
+.start__signin-button {
+  text-align: center;
+}
+
+.start__signin-button a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ff7f5c;
+  border-radius: 5px;
+  padding: 16px 125px 14px 126px;
+}
+
+.start__background {
+  position: absolute;
+  margin-left: 550px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .start__body {
+    padding-top: 150px;
+  }
+  .start__container {
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 1087px) {
+  .start__background {
+    margin-left: 350px;
+  }
+  .start__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 1000px;
+  }
+  .start__signin {
+    margin: 0px auto;
+    padding-right: 0px;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .start__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .start__naviagtion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .start__signin {
+    padding-top: 20px;
+  }
+  .start__playvideo {
+    padding-top: 30px;
+  }
+  .start__signin-form input {
+    width: 275px;
+    height: 40px;
+    margin: 10px auto;
+  }
+  .start__signin-button a {
+    padding: 8px 80px 10px 80px;
+  }
+}
